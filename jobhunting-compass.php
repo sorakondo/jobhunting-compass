@@ -1,12 +1,21 @@
 
 
+
 <?php
 /**
  * Plugin Name: Jobhunting Compass
  * Description: 就活現在地診断プラグイン
  * Version: 0.1.0
+ * Author: TKF Project
+ * GitHub Plugin URI: https://github.com/sorakondo/jobhunting-compass
+ * Primary Branch: main
  */
 
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+// 以下に既存のプラグイン処理を記述
 if (!defined('ABSPATH')) {
     exit;
 }
