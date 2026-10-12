@@ -16,3 +16,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Generated plugin archive
+jobhunting-compass.zip
