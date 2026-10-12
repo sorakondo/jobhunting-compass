@@ -1,0 +1,97 @@
+
+
+.jhc-app {
+  max-width: 720px;
+  margin: 40px auto;
+  font-family: inherit;
+}
+
+.jhc-app .jhc-card {
+  padding: 32px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
+
+.jhc-app .jhc-progress {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.jhc-app .jhc-title {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.jhc-app .jhc-options {
+  display: grid;
+  gap: 12px;
+}
+
+.jhc-app .jhc-option {
+  width: 100%;
+  padding: 16px;
+  text-align: left;
+  background: #fff;
+  color: #1e293b;
+  border: 1px solid #dbe1e8;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.jhc-app .jhc-option:hover {
+  background: #f8fafc;
+}
+
+.jhc-app .jhc-option[aria-pressed="true"] {
+  border-color: #1d4ed8;
+  background: #eff6ff;
+}
+
+.jhc-app .jhc-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.jhc-app .jhc-actions button,
+.jhc-app .jhc-retry {
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 8px;
+  background: #1e3a8a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.jhc-app button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.jhc-app [hidden] {
+  display: none !important;
+}
+
+.jhc-app .jhc-score {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.jhc-app .jhc-level {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .jhc-app .jhc-card {
+    padding: 20px;
+  }
+
+  .jhc-app .jhc-title {
+    font-size: 20px;
+  }
+}
