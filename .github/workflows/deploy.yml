@@ -1,0 +1,64 @@
+
+
+name: Deploy Jobhunting Compass
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wordpress-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check PHP syntax
+        run: |
+          set -euo pipefail
+          find . -name "*.php" -type f -print0 \
+            | xargs -0 -r -n1 php -l
+
+      - name: Check JavaScript syntax
+        run: |
+          set -euo pipefail
+          find assets -name "*.js" -type f -print0 \
+            | xargs -0 -r -n1 node --check
+
+      - name: Deploy to WordPress
+        env:
+          GIT_UPDATER_KEY: ${{ secrets.GIT_UPDATER_KEY }}
+        run: |
+          set -euo pipefail
+
+          test -n "$GIT_UPDATER_KEY"
+
+          response=$(curl \
+            --fail-with-body \
+            --silent \
+            --show-error \
+            --retry 2 \
+            --get \
+            --data-urlencode "key=$GIT_UPDATER_KEY" \
+            --data-urlencode "plugin=jobhunting-compass" \
+            --data-urlencode "branch=main" \
+            --data-urlencode "committish=$GITHUB_SHA" \
+            "https://tkf-school.com/wp-json/git-updater/v1/update/")
+
+          if ! printf '%s' "$response" \
+            | jq -e '.success == true' > /dev/null; then
+            echo "Deployment failed."
+            exit 1
+          fi
+
+          echo "Deployment completed successfully."
