@@ -9,6 +9,28 @@ WordPress 上で動作する「就活現在地診断」プラグインです。�
 - 結果画面に合計点と分野別の点数を表示し、最も点数が低い分野に合わせた案内を表示します。同点の場合は該当する分野すべてを案内します。
 - すべての質問で④を選んだ場合は、満点向けの案内を表示します。
 - 結果画面の登録ボタンから [me-mories.jp](https://me-mories.jp/) へ移動できます。
+- 回答を戻って変更できます。「もう一度診断する」で回答をリセットし、次の開始時に再抽選します。
+- TKFの紺・オレンジを使ったカードとノートのイラストで構成し、開始画面の説明を最小限にしています。
+
+## ローカルでの確認
+
+WordPressを起動せず、同じ質問データ・CSS・JavaScriptで画面を確認できます。Node.js 24とPython 3で確認しています。
+
+```bash
+node tools/build-preview.cjs
+python -m http.server 8776 --bind 127.0.0.1
+```
+
+ブラウザで `http://127.0.0.1:8776/preview.html` を開いてください。生成した `preview.html` はGit管理対象外です。プレビューの外側の背景は確認用であり、WordPressではページのテーマが適用されます。
+
+```bash
+node --check assets/quiz.js
+node --test --test-isolation=none tests/diagnostic.test.cjs
+```
+
+質問・選択肢と結果文は「【HP魔改造班】 就活現在地診断.xlsx」の「28卒」A2:C16と「結果の文章」A3:B6に照合済みです。Excelの結果文は全文を保持しています。数値による点数帯はExcelに定義されていないため、上記の最低点の分野・同点・満点の規則を使用します。「29卒以降」シートには質問の記載がありません。
+
+検証内容と画面例は [verification/TESTING.md](verification/TESTING.md) にまとめています。この変更は作業ブランチ `codex/tkf-compass-simple` 用です。本番への反映は別途確認してください。
 
 ## 技術スタック
 

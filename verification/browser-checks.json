@@ -1,0 +1,1884 @@
+{
+  "layouts": [
+    {
+      "label": "RETRY START",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "RETRY START",
+      "cardWidth": 358.3999938964844,
+      "clientWidth": 390,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "scrollWidth": 390,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "RETRY START",
+      "cardWidth": 398.3999938964844,
+      "clientWidth": 430,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "scrollWidth": 430,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "RETRY START",
+      "cardWidth": 736,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "RETRY START",
+      "cardWidth": 800,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "RETRY START",
+      "cardWidth": 800,
+      "clientWidth": 1440,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "scrollWidth": 1440,
+      "smallTargets": [],
+      "viewport": 1440
+    },
+    {
+      "label": "Q1 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q1 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q1 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q1 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q1 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q1 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1440,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1440,
+      "smallTargets": [],
+      "viewport": 1440
+    },
+    {
+      "label": "Q1 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q1 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q1 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q1 selected",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q1 selected",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q1 selected",
+      "cardWidth": 720,
+      "clientWidth": 1440,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1440,
+      "smallTargets": [],
+      "viewport": 1440
+    },
+    {
+      "label": "Q2 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q2 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q2 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q2 unanswered",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q2 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q2 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1440,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1440,
+      "smallTargets": [],
+      "viewport": 1440
+    },
+    {
+      "label": "Q2 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q2 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q2 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q2 selected",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q2 selected",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q2 selected",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q3 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q3 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q3 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q3 unanswered",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q3 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q3 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q3 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q3 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q3 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q3 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q3 selected",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q3 selected",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q4 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q4 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q4 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q4 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q4 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q4 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q4 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q4 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q4 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q4 selected",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q4 selected",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q4 selected",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q5 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q5 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q5 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q5 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q5 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q5 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1440,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1440,
+      "smallTargets": [],
+      "viewport": 1440
+    },
+    {
+      "label": "Q5 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q5 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q5 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q5 selected",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q5 selected",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q5 selected",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q6 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q6 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q6 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q6 unanswered",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q6 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q6 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q6 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q6 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q6 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q6 selected",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q6 selected",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q6 selected",
+      "cardWidth": 720,
+      "clientWidth": 1440,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1440,
+      "smallTargets": [],
+      "viewport": 1440
+    },
+    {
+      "label": "Q7 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q7 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q7 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q7 unanswered",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q7 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q7 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q7 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q7 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q7 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q7 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q7 selected",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q7 selected",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q8 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q8 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q8 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q8 unanswered",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q8 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q8 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q8 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q8 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q8 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q8 selected",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q8 selected",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q8 selected",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q9 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q9 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q9 unanswered",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q9 unanswered",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q9 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "Q9 unanswered",
+      "cardWidth": 720,
+      "clientWidth": 1440,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1440,
+      "smallTargets": [],
+      "viewport": 1440
+    },
+    {
+      "label": "Q9 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q9 selected",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "Q9 selected",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "Q9 selected",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "Q9 selected",
+      "cardWidth": 720,
+      "clientWidth": 768,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "Q9 selected",
+      "cardWidth": 720,
+      "clientWidth": 1024,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "scrollWidth": 1024,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "RESULT self-analysis",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "RESULT self-analysis",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "RESULT self-analysis",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "RESULT self-analysis",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "RESULT self-analysis",
+      "cardWidth": 720.7999877929688,
+      "clientWidth": 753,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 753,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "RESULT self-analysis",
+      "cardWidth": 800,
+      "clientWidth": 1009,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 1009,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "3分野が同点",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "3分野が同点",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "3分野が同点",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "3分野が同点",
+      "cardWidth": 720.7999877929688,
+      "clientWidth": 753,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 753,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "3分野が同点",
+      "cardWidth": 800,
+      "clientWidth": 1009,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 1009,
+      "smallTargets": [],
+      "viewport": 1024
+    },
+    {
+      "label": "3分野が同点",
+      "cardWidth": 720.7999877929688,
+      "clientWidth": 753,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 753,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "満点",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "満点",
+      "cardWidth": 343.20001220703125,
+      "clientWidth": 375,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "viewport": 390
+    },
+    {
+      "label": "満点",
+      "cardWidth": 328,
+      "clientWidth": 360,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "viewport": 375
+    },
+    {
+      "label": "満点",
+      "cardWidth": 383.2000122070313,
+      "clientWidth": 415,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "viewport": 430
+    },
+    {
+      "label": "満点",
+      "cardWidth": 720.7999877929688,
+      "clientWidth": 753,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 753,
+      "smallTargets": [],
+      "viewport": 768
+    },
+    {
+      "label": "満点",
+      "cardWidth": 800,
+      "clientWidth": 1425,
+      "clippedControls": [],
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "scrollWidth": 1425,
+      "smallTargets": [],
+      "viewport": 1440
+    }
+  ],
+  "checks": [
+    {
+      "name": "未回答・見出しフォーカス",
+      "observed": {
+        "backDisabled": true,
+        "focused": "jhc-title",
+        "nextDisabled": true,
+        "progress": "1問目 / 9問",
+        "selected": [
+          "false",
+          "false",
+          "false",
+          "false"
+        ]
+      }
+    },
+    {
+      "name": "Tabで選択肢へ移動",
+      "observed": {
+        "focus": "jhc-option"
+      }
+    },
+    {
+      "name": "Spaceで選択・フォーカス保持",
+      "observed": {
+        "focus": "2確認したが、内容はあまり読み込めていない",
+        "nextDisabled": false,
+        "selected": "true"
+      }
+    },
+    {
+      "name": "戻った回答保持",
+      "observed": {
+        "progress": "1問目 / 9問",
+        "selected": [
+          "false",
+          "true",
+          "false",
+          "false"
+        ]
+      }
+    },
+    {
+      "name": "回答変更の保持",
+      "observed": {
+        "progress": "1",
+        "selected": [
+          "true",
+          "false",
+          "false",
+          "false"
+        ]
+      }
+    },
+    {
+      "name": "最終質問",
+      "observed": {
+        "next": "結果を見る",
+        "progress": "9"
+      }
+    },
+    {
+      "name": "回答変更後の結果表示",
+      "observed": {
+        "focus": "jhc-result-title",
+        "messages": [
+          "・あなたが今やるべきことは...「自己分析 」です！"
+        ],
+        "register": "https://me-mories.jp/",
+        "rel": "noopener noreferrer",
+        "scores": [
+          "自己分析3 / 12点",
+          "企業分析7 / 12点",
+          "選考対策12 / 12点"
+        ],
+        "total": "合計 22 / 36点"
+      }
+    },
+    {
+      "name": "出題構成",
+      "observed": {
+        "counts": {
+          "自己分析": 3,
+          "企業分析": 3,
+          "選考対策": 3
+        },
+        "unique": 9
+      }
+    },
+    {
+      "name": "retry reset",
+      "observed": {
+        "nextDisabled": true,
+        "oldMessages": 0,
+        "progress": "0",
+        "selected": [
+          "false",
+          "false",
+          "false",
+          "false"
+        ]
+      }
+    },
+    {
+      "name": "自己分析3・企業9・選考12",
+      "pass": true,
+      "observed": {
+        "messages": [
+          "・あなたが今やるべきことは...「自己分析 」です！"
+        ],
+        "scores": [
+          "自己分析3 / 12点",
+          "企業分析9 / 12点",
+          "選考対策12 / 12点"
+        ],
+        "total": "合計 24 / 36点"
+      }
+    },
+    {
+      "label": "企業分析が最低",
+      "pass": true,
+      "cards": 1,
+      "headings": [
+        "・あなたが今やるべきことは...「企業分析」です！"
+      ],
+      "scores": [
+        "自己分析9 / 12点",
+        "企業分析3 / 12点",
+        "選考対策12 / 12点"
+      ],
+      "total": "合計 24 / 36点"
+    },
+    {
+      "label": "選考対策が最低",
+      "pass": true,
+      "cards": 1,
+      "headings": [
+        "・あなたが今やるべきことは...「選考対策」です！"
+      ],
+      "scores": [
+        "自己分析12 / 12点",
+        "企業分析9 / 12点",
+        "選考対策3 / 12点"
+      ],
+      "total": "合計 24 / 36点"
+    },
+    {
+      "label": "自己・企業が同点",
+      "pass": true,
+      "cards": 2,
+      "headings": [
+        "・あなたが今やるべきことは...「自己分析 」です！",
+        "・あなたが今やるべきことは...「企業分析」です！"
+      ],
+      "scores": [
+        "自己分析6 / 12点",
+        "企業分析6 / 12点",
+        "選考対策9 / 12点"
+      ],
+      "total": "合計 21 / 36点"
+    },
+    {
+      "label": "3分野が同点",
+      "pass": true,
+      "cards": 3,
+      "headings": [
+        "・あなたが今やるべきことは...「自己分析 」です！",
+        "・あなたが今やるべきことは...「企業分析」です！",
+        "・あなたが今やるべきことは...「選考対策」です！"
+      ],
+      "scores": [
+        "自己分析3 / 12点",
+        "企業分析3 / 12点",
+        "選考対策3 / 12点"
+      ],
+      "total": "合計 9 / 36点"
+    },
+    {
+      "label": "満点",
+      "pass": true,
+      "cards": 1,
+      "headings": [
+        "・あなたの就活準備は...「満点」です！🎉"
+      ],
+      "scores": [
+        "自己分析12 / 12点",
+        "企業分析12 / 12点",
+        "選考対策12 / 12点"
+      ],
+      "total": "合計 36 / 36点"
+    },
+    {
+      "label": "再診断で新しい出題を抽選",
+      "pass": true
+    }
+  ],
+  "draws": [
+    [
+      {
+        "category": "自己分析",
+        "question": "ガクチカは何個考えましたか，どこまで深堀りができていますか"
+      },
+      {
+        "category": "自己分析",
+        "question": "自分のモチベーションの源泉を伝えることはできますか"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業が属する業界について、どのような特徴や課題があるか説明できますか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "面接で、ガクチカ・自己PR・志望動機などを深掘りされても自分の言葉で答えられますか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "自分の強み・弱みをエピソードも踏まえて伝えることができますか"
+      },
+      {
+        "category": "選考対策",
+        "question": "SPI・玉手箱など、志望企業のWebテストに向けた対策はどのくらい進んでいますか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業の「事業内容」について、具体的に説明できますか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "企業HPや採用HPだけでなく、統合報告書（IR）も確認しましたか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "グループディスカッションに向けた準備・練習はどのくらいできていますか？"
+      }
+    ],
+    [
+      {
+        "category": "企業分析",
+        "question": "志望企業について、同業他社と比較した際の特徴を言語化できていますか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "面接で、ガクチカ・自己PR・志望動機などを深掘りされても自分の言葉で答えられますか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "SPI・玉手箱など、志望企業のWebテストに向けた対策はどのくらい進んでいますか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "自分のモチベーションの源泉を伝えることはできますか"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業が「今後どのような方向を目指しているのか」を把握していますか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業が属する業界について、どのような特徴や課題があるか説明できますか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "企業を選ぶ際に大事にしたい軸を複数個，言語化できていますか"
+      },
+      {
+        "category": "自己分析",
+        "question": "ガクチカは何個考えましたか，どこまで深堀りができていますか"
+      },
+      {
+        "category": "選考対策",
+        "question": "ガクチカや自己PRなど、ESでよく聞かれる内容を自分の言葉で整理できていますか？"
+      }
+    ],
+    [
+      {
+        "category": "企業分析",
+        "question": "企業HPや採用HPだけでなく、統合報告書（IR）も確認しましたか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業の「事業内容」について、具体的に説明できますか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "グループディスカッションに向けた準備・練習はどのくらいできていますか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "面接で、ガクチカ・自己PR・志望動機などを深掘りされても自分の言葉で答えられますか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業が属する業界について、どのような特徴や課題があるか説明できますか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "自分史を書き，各エピソードの深堀りをしましたか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "企業を選ぶ際に大事にしたい軸を複数個，言語化できていますか"
+      },
+      {
+        "category": "自己分析",
+        "question": "自分のモチベーションの源泉を伝えることはできますか"
+      },
+      {
+        "category": "選考対策",
+        "question": "選考を受けた後、自分の課題を振り返り、次の選考に向けて改善していますか？"
+      }
+    ],
+    [
+      {
+        "category": "選考対策",
+        "question": "選考を受けた後、自分の課題を振り返り、次の選考に向けて改善していますか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "ガクチカは何個考えましたか，どこまで深堀りができていますか"
+      },
+      {
+        "category": "企業分析",
+        "question": "企業HPや採用HPだけでなく、統合報告書（IR）も確認しましたか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "自分の強み・弱みをエピソードも踏まえて伝えることができますか"
+      },
+      {
+        "category": "自己分析",
+        "question": "自分のモチベーションの源泉を伝えることはできますか"
+      },
+      {
+        "category": "選考対策",
+        "question": "ガクチカや自己PRなど、ESでよく聞かれる内容を自分の言葉で整理できていますか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "グループディスカッションに向けた準備・練習はどのくらいできていますか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業が「今後どのような方向を目指しているのか」を把握していますか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業について、同業他社と比較した際の特徴を言語化できていますか？"
+      }
+    ],
+    [
+      {
+        "category": "企業分析",
+        "question": "志望企業について、同業他社と比較した際の特徴を言語化できていますか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "ガクチカは何個考えましたか，どこまで深堀りができていますか"
+      },
+      {
+        "category": "選考対策",
+        "question": "選考を受けた後、自分の課題を振り返り、次の選考に向けて改善していますか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業が「今後どのような方向を目指しているのか」を把握していますか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業が属する業界について、どのような特徴や課題があるか説明できますか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "面接で、ガクチカ・自己PR・志望動機などを深掘りされても自分の言葉で答えられますか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "自分史を書き，各エピソードの深堀りをしましたか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "グループディスカッションに向けた準備・練習はどのくらいできていますか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "自分の強み・弱みをエピソードも踏まえて伝えることができますか"
+      }
+    ],
+    [
+      {
+        "category": "企業分析",
+        "question": "志望企業について、同業他社と比較した際の特徴を言語化できていますか？"
+      },
+      {
+        "category": "自己分析",
+        "question": "企業を選ぶ際に大事にしたい軸を複数個，言語化できていますか"
+      },
+      {
+        "category": "自己分析",
+        "question": "ガクチカは何個考えましたか，どこまで深堀りができていますか"
+      },
+      {
+        "category": "自己分析",
+        "question": "自分のモチベーションの源泉を伝えることはできますか"
+      },
+      {
+        "category": "選考対策",
+        "question": "選考を受けた後、自分の課題を振り返り、次の選考に向けて改善していますか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "企業HPや採用HPだけでなく、統合報告書（IR）も確認しましたか？"
+      },
+      {
+        "category": "企業分析",
+        "question": "志望企業の「事業内容」について、具体的に説明できますか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "SPI・玉手箱など、志望企業のWebテストに向けた対策はどのくらい進んでいますか？"
+      },
+      {
+        "category": "選考対策",
+        "question": "グループディスカッションに向けた準備・練習はどのくらいできていますか？"
+      }
+    ]
+  ],
+  "console": [],
+  "date": "2026-10-13"
+}
