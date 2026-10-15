@@ -1,6 +1,3 @@
-
-
-
 <?php
 /**
  * Plugin Name: Jobhunting Compass
