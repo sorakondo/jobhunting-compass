@@ -23,6 +23,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Check PHP file prefixes
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import sys
+
+          invalid_files = []
+          for path in Path('.').rglob('*.php'):
+              if not path.read_bytes().startswith(b'<?php'):
+                  invalid_files.append(path)
+
+          if invalid_files:
+              for path in invalid_files:
+                  print(f"{path}: must start with '<?php' (no leading whitespace or UTF-8 BOM)", file=sys.stderr)
+              sys.exit(1)
+          PY
+
       - name: Check PHP syntax
         run: |
           set -euo pipefail
