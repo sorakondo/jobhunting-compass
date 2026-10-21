@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Jobhunting Compass
  * Description: 就活現在地診断プラグイン
- * Version: 0.2.1
+ * Version: 0.2.2
  * Author: Sora Kondo
  * GitHub Plugin URI: https://github.com/sorakondo/jobhunting-compass
  * Primary Branch: main
@@ -50,7 +50,7 @@ function jhc_render_quiz() {
     return '<div class="jhc-app" data-questions="' .
         esc_attr(wp_json_encode($questions)) .
         '" data-illustration="' .
-        esc_url(plugin_dir_url(__FILE__) . 'assets/career-notebook.svg') .
+        esc_url(plugin_dir_url(__FILE__) . 'assets/tkf-mascot.png') .
         '"></div>';
 }
 
