@@ -15,11 +15,13 @@ if (questions.length !== 15 || questions.some(question => question.choices.lengt
 }
 const escapeAttribute = value => value.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
   .replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/'/g, '&#39;');
+const withTheme = process.argv.includes('--theme');
 const html = `<!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>就活現在地診断 | TKF school</title><link rel="icon" href="data:,"><link rel="stylesheet" href="assets/quiz.css"><style>body{margin:0;padding:16px;background:#f6f7fa}</style><script src="assets/quiz.js" defer></script></head>
-<body><main><div class="jhc-app" data-questions="${escapeAttribute(JSON.stringify(questions))}" data-illustration="assets/career-notebook.svg"></div></main></body></html>\n`;
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>就活現在地診断 | TKF school</title><link rel="icon" href="data:,"><link rel="stylesheet" href="assets/quiz.css">${withTheme ? '<link rel="stylesheet" href="tools/theme-heading-fixture.css">' : ''}<style>body{margin:0;padding:16px;background:#f6f7fa}</style><script src="assets/quiz.js" defer></script></head>
+<body><main class="post_content">${withTheme ? '<h2 class="theme-outside-heading">テーマ側の見出し（検証用）</h2>' : ''}<div class="jhc-app" data-questions="${escapeAttribute(JSON.stringify(questions))}" data-illustration="assets/career-notebook.svg"></div></main></body></html>\n`;
 if (require.main === module) {
-  fs.writeFileSync(path.join(__dirname, '../preview.html'), html);
-  console.log('preview.html を生成しました。');
+  const output = withTheme ? 'preview-theme.html' : 'preview.html';
+  fs.writeFileSync(path.join(__dirname, '..', output), html);
+  console.log(output + ' を生成しました。');
 }
 module.exports = questions;

@@ -1,0 +1,473 @@
+{
+  "date": "2026-10-21",
+  "layouts": [
+    {
+      "label": "start",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "就活の現在地診断"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "smallControls": [],
+      "width": 375
+    },
+    {
+      "label": "start",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "就活の現在地診断"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "smallControls": [],
+      "width": 390
+    },
+    {
+      "label": "start",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "就活の現在地診断"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "smallControls": [],
+      "width": 430
+    },
+    {
+      "label": "start",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "就活の現在地診断"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "smallControls": [],
+      "width": 768
+    },
+    {
+      "label": "start",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "就活の現在地診断"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "smallControls": [],
+      "width": 1024
+    },
+    {
+      "label": "start",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "就活の現在地診断"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-start",
+      "smallControls": [],
+      "width": 1440
+    },
+    {
+      "label": "question",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(32, 43, 64)",
+          "padding": "0px",
+          "text": "選考を受けた後、自分の課題を振り返り、次の選考に向けて改善していますか？"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "smallControls": [],
+      "width": 375
+    },
+    {
+      "label": "question",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(32, 43, 64)",
+          "padding": "0px",
+          "text": "選考を受けた後、自分の課題を振り返り、次の選考に向けて改善していますか？"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "smallControls": [],
+      "width": 390
+    },
+    {
+      "label": "question",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(32, 43, 64)",
+          "padding": "0px",
+          "text": "選考を受けた後、自分の課題を振り返り、次の選考に向けて改善していますか？"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "smallControls": [],
+      "width": 430
+    },
+    {
+      "label": "question",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(32, 43, 64)",
+          "padding": "0px",
+          "text": "選考を受けた後、自分の課題を振り返り、次の選考に向けて改善していますか？"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "smallControls": [],
+      "width": 768
+    },
+    {
+      "label": "question",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(32, 43, 64)",
+          "padding": "0px",
+          "text": "選考を受けた後、自分の課題を振り返り、次の選考に向けて改善していますか？"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "smallControls": [],
+      "width": 1024
+    },
+    {
+      "label": "question",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(32, 43, 64)",
+          "padding": "0px",
+          "text": "選考を受けた後、自分の課題を振り返り、次の選考に向けて改善していますか？"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-question",
+      "smallControls": [],
+      "width": 1440
+    },
+    {
+      "label": "result",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "診断結果"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "・あなたが今やるべきことは...「選考対策」です！"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "smallControls": [],
+      "width": 375
+    },
+    {
+      "label": "result",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "診断結果"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "・あなたが今やるべきことは...「選考対策」です！"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "smallControls": [],
+      "width": 390
+    },
+    {
+      "label": "result",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "診断結果"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "・あなたが今やるべきことは...「選考対策」です！"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "smallControls": [],
+      "width": 430
+    },
+    {
+      "label": "result",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "診断結果"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "・あなたが今やるべきことは...「選考対策」です！"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "smallControls": [],
+      "width": 768
+    },
+    {
+      "label": "result",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "診断結果"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "・あなたが今やるべきことは...「選考対策」です！"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "smallControls": [],
+      "width": 1024
+    },
+    {
+      "label": "result",
+      "clippedControls": [],
+      "headings": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "診断結果"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none",
+          "border": "0px",
+          "color": "rgb(19, 43, 100)",
+          "padding": "0px",
+          "text": "・あなたが今やるべきことは...「選考対策」です！"
+        }
+      ],
+      "outsideBackground": "rgb(5, 43, 76)",
+      "overflow": false,
+      "screen": "jhc-card jhc-result",
+      "smallControls": [],
+      "width": 1440
+    }
+  ],
+  "cases": [
+    {
+      "label": "three-way",
+      "pass": true,
+      "focus": "jhc-result-title",
+      "headings": [
+        "・あなたが今やるべきことは...「選考対策」です！"
+      ],
+      "status": "診断結果。合計9点。選考対策を案内します。",
+      "total": "合計 9 / 36点"
+    },
+    {
+      "label": "self-company",
+      "pass": true,
+      "focus": "jhc-result-title",
+      "headings": [
+        "・あなたが今やるべきことは...「自己分析 」です！"
+      ],
+      "status": "診断結果。合計12点。自己分析を案内します。",
+      "total": "合計 12 / 36点"
+    },
+    {
+      "label": "self-selection",
+      "pass": true,
+      "focus": "jhc-result-title",
+      "headings": [
+        "・あなたが今やるべきことは...「選考対策」です！"
+      ],
+      "status": "診断結果。合計12点。選考対策を案内します。",
+      "total": "合計 12 / 36点"
+    },
+    {
+      "label": "company-selection",
+      "pass": true,
+      "focus": "jhc-result-title",
+      "headings": [
+        "・あなたが今やるべきことは...「選考対策」です！"
+      ],
+      "status": "診断結果。合計12点。選考対策を案内します。",
+      "total": "合計 12 / 36点"
+    },
+    {
+      "label": "perfect",
+      "pass": true,
+      "focus": "jhc-result-title",
+      "headings": [
+        "・あなたの就活準備は...「満点」です！🎉"
+      ],
+      "status": "診断結果。合計36点。満点です。",
+      "total": "合計 36 / 36点"
+    }
+  ],
+  "logs": [],
+  "layoutFailures": []
+}

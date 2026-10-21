@@ -1,6 +1,7 @@
 (() => {
   const categories = ['自己分析', '企業分析', '選考対策'];
   const registerUrl = 'https://me-mories.jp/';
+  const japanMonth = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Tokyo', month: 'numeric' });
   const advice = {
     自己分析: `・あなたが今やるべきことは...「自己分析 」です！
 
@@ -93,8 +94,18 @@
     };
   }
 
-  function getAdvice(result) {
-    return result.perfect ? [advice.perfect] : result.lowestCategories.map(category => advice[category]);
+  function getRecommendedCategory(result, date = new Date()) {
+    if (result.perfect) return null;
+    const lowest = result.lowestCategories;
+    if (lowest.length === 1) return lowest[0];
+    if (!lowest.includes('選考対策')) return '自己分析';
+    if (!lowest.includes('自己分析')) return '選考対策';
+    const month = Number(japanMonth.format(date));
+    return month >= 10 || month <= 3 ? '選考対策' : '自己分析';
+  }
+
+  function getAdvice(result, date = new Date()) {
+    return [result.perfect ? advice.perfect : advice[getRecommendedCategory(result, date)]];
   }
 
   let instanceCount = 0;
@@ -199,6 +210,7 @@
 
     function renderResult() {
       const result = calculateResult(session.questions, session.answers);
+      const resultDate = new Date();
       find('.jhc-score').textContent = '合計 ' + result.totalScore + ' / 36点';
       const list = find('.jhc-category-scores');
       list.replaceChildren();
@@ -223,7 +235,7 @@
       });
       const messages = find('.jhc-result-advice');
       messages.replaceChildren();
-      getAdvice(result).forEach(text => {
+      getAdvice(result, resultDate).forEach(text => {
         const section = document.createElement('section');
         section.className = 'jhc-advice-card';
         // Preserve all Excel wording. Separate the leading result line for hierarchy.
@@ -238,7 +250,7 @@
       });
       showScreen('result');
       status.textContent = '診断結果。合計' + result.totalScore + '点。' +
-        (result.perfect ? '満点です。' : result.lowestCategories.join('、') + 'を案内します。');
+        (result.perfect ? '満点です。' : getRecommendedCategory(result, resultDate) + 'を案内します。');
     }
 
     find('.jhc-start-button').addEventListener('click', () => {
@@ -276,7 +288,7 @@
   }
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = { categories, advice, registerUrl, shuffle, selectQuestions, createSession, calculateResult, getAdvice };
+    module.exports = { categories, advice, registerUrl, shuffle, selectQuestions, createSession, calculateResult, getRecommendedCategory, getAdvice };
   }
   if (typeof document !== 'undefined') {
     document.addEventListener('DOMContentLoaded', () => {

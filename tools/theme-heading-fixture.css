@@ -1,0 +1,26 @@
+/* Regression fixture for the dark heading backgrounds shown in WordPress.
+ * Loaded AFTER plugin CSS to also check cascade order; this is not SWELL source. */
+.post_content h2 {
+  position: relative;
+  margin: 40px 0 24px;
+  padding: 24px 28px;
+  border-top: 4px double #fff;
+  border-bottom: 4px double #fff;
+  background: #052b4c;
+  color: #fff;
+}
+.post_content h3 {
+  position: relative;
+  padding: 20px;
+  margin: 32px 0;
+  border-bottom: 3px solid #052b4c;
+  background: #052b4c;
+}
+.post_content h2::before, .post_content h2::after,
+.post_content h3::before, .post_content h3::after {
+  content: '';
+  display: block;
+  position: absolute;
+  inset: 0;
+  border-top: 2px solid #052b4c;
+}

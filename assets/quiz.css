@@ -25,6 +25,21 @@
 .jhc-app [hidden] { display: none !important; }
 .jhc-app p, .jhc-app h2, .jhc-app h3 { margin: 0; }
 .jhc-app h2, .jhc-app h3 { font-family: inherit; line-height: 1.6; overflow-wrap: anywhere; letter-spacing: normal; }
+/* Keep WordPress theme heading decorations outside the diagnostic. */
+.jhc-app h2.jhc-start-title,
+.jhc-app h2.jhc-title,
+.jhc-app h2.jhc-result-title,
+.jhc-app .jhc-advice-card h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+.jhc-app h2[class]::before, .jhc-app h2[class]::after,
+.jhc-app .jhc-advice-card h3::before, .jhc-app .jhc-advice-card h3::after { display: none; content: none; }
 .jhc-app button, .jhc-app a { -webkit-tap-highlight-color: transparent; }
 .jhc-app button { font: inherit; cursor: pointer; text-transform: none; letter-spacing: normal; margin: 0; }
 .jhc-app :focus-visible { outline: 3px solid var(--jhc-navy); outline-offset: 5px; }
@@ -54,7 +69,7 @@
 .jhc-app .jhc-progress-bar { height: 12px; overflow: hidden; background: var(--jhc-track); border-radius: 999px; margin-top: 12px; }
 .jhc-app .jhc-progress-fill { display: block; height: 100%; width: 0; background: var(--jhc-orange); border-radius: inherit; transition: width var(--jhc-transition); }
 .jhc-app .jhc-category { display: table; padding: 3px 12px; border-radius: 999px; background: var(--jhc-tint); color: var(--jhc-navy); font-size: 12px; font-weight: 700; margin-top: 28px; }
-.jhc-app .jhc-title { color: var(--jhc-text); font-size: 21px; margin-top: 16px; }
+.jhc-app h2.jhc-title { color: var(--jhc-text); font-size: 21px; margin-top: 16px; }
 .jhc-app .jhc-options { display: grid; gap: 14px; margin-top: 24px; }
 .jhc-app .jhc-option { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 64px; padding: 14px; border: 2px solid var(--jhc-border); border-radius: var(--jhc-radius); background: var(--jhc-surface); color: var(--jhc-text); box-shadow: 0 3px 0 var(--jhc-border); font-size: 15px; line-height: 1.7; text-align: left; transition: background var(--jhc-transition), border-color var(--jhc-transition), transform var(--jhc-transition), box-shadow var(--jhc-transition); }
 .jhc-app .jhc-option:hover { border-color: var(--jhc-navy); }
@@ -88,7 +103,7 @@
   .jhc-app .jhc-start-title { font-size: 44px; }
   .jhc-app .jhc-notebook { max-width: 240px; justify-self: center; }
   .jhc-app .jhc-start-button, .jhc-app .jhc-register { max-width: 400px; }
-  .jhc-app .jhc-title { font-size: 26px; }
+  .jhc-app h2.jhc-title { font-size: 26px; }
   .jhc-app .jhc-option { padding: 16px 20px; font-size: 16px; }
   .jhc-app .jhc-actions { grid-template-columns: 110px minmax(0, 1fr); }
   .jhc-app .jhc-next { width: 100%; max-width: 300px; justify-self: end; }
