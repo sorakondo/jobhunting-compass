@@ -3,52 +3,54 @@
   const registerUrl = 'https://me-mories.jp/';
   const japanMonth = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Tokyo', month: 'numeric' });
   const advice = {
-    自己分析: `・あなたが今やるべきことは...「自己分析 」です！
-
-・自己分析は特に下記が重要です！
-＞過去のエピソードを様々な角度から深堀り，整理する
-＞過去の経験を踏まえて自分のやりたいことや強みを整理する
-＞上記は一人では限界あるためとにかく人と対話する
-
-・TKFで「自己分析」を進めてみよう！
-＞複数のメンターと1対1面談がし放題！
-＞先輩だけでなく他の29卒とも交流できる！
-
-・TKFを使いたい方は下記ボタンから登録！`,
-    企業分析: `・あなたが今やるべきことは...「企業分析」です！
-
-企業分析は特に下記が重要です！
-＞業界・企業を比較し、それぞれの特徴や違いを整理する
-＞「なぜ同業他社ではなく、この企業なのか」を言語化する
-＞情報の分析や言語化は周囲の人と壁打ちして進めることが重要
-
-・TKFで「企業分析」を進めてみよう！
-＞志望業界の内定者のメンターと面談して、内定者の声を通じて企業理解を深めよう！
-＞合同説明会や個社イベントを有効活用しよう！
-
-・TKFを使いたい方は下記ボタンから登録！`,
-    選考対策: `・あなたが今やるべきことは...「選考対策」です！
-
-・選考対策は特に下記が重要です！
-＞ES・Webテスト・GD・面接など、各選考に向けた準備を進める
-＞選考後に「できたこと・できなかったこと」を振り返り、次の選考に活かす
-＞一人で対策するだけでなく、他の人からフィードバックをもらいながら改善する
-
-・TKFで「選考対策」を進めてみよう！
-＞メンターとの1対1面談で、ES添削や面接練習ができる！
-＞GD練習や選考対策イベントを活用して、実践経験を積もう！
-
-・TKFを使いたい方は下記ボタンから登録！`,
-    perfect: `・あなたの就活準備は...「満点」です！🎉
-
-・自己分析・企業分析・選考対策をバランスよく進められています！
-これまでの取り組みを継続しながら、周囲からのフィードバックを取り入れ、自分の考えや選考対策をさらにブラッシュアップしていきましょう！
-
-・TKFを使って、さらに就活を前に進めよう！
-＞複数のメンターと面談して、さまざまな視点やアドバイスをもらおう！
-＞他の就活生や内定者との交流を通して、新しい情報や考え方を吸収しよう！
-
-・TKFを使いたい方は下記ボタンから登録！`,
+    自己分析: {
+      title: 'まずは「自己分析」から始めよう！',
+      description: '自分の経験を振り返り、やりたいことや強みを明確にすることが、納得のいくキャリア選択への第一歩です。',
+      checklistTitle: '自己分析で整理したいこと',
+      items: [
+        '過去の経験やエピソードを多角的に振り返る',
+        '自分の強みや、本当にやりたいことを整理する',
+        '他者との対話で新しい視点を得る',
+      ],
+      benefitTitle: 'TKFで自己分析を深めよう',
+      benefitDescription: '複数のメンターとの1対1面談がし放題。先輩だけでなく、他の29卒とも交流できます。',
+    },
+    企業分析: {
+      title: 'まずは「企業分析」から始めよう！',
+      description: '業界や企業への理解を深め、自分に合う企業と志望理由を明確にすることが、納得のいくキャリア選択につながります。',
+      checklistTitle: '企業分析で整理したいこと',
+      items: [
+        '業界・企業を比較し、それぞれの特徴や違いを整理する',
+        '「なぜ同業他社ではなく、この企業なのか」を言語化する',
+        '周囲の人との対話で、情報の分析や言語化を深める',
+      ],
+      benefitTitle: 'TKFで企業分析を深めよう',
+      benefitDescription: '志望業界の内定者メンターとの面談で、内定者の声を通じて企業理解を深められます。合同説明会や個社イベントも活用しましょう。',
+    },
+    選考対策: {
+      title: 'まずは「選考対策」から始めよう！',
+      description: '各選考に向けた準備と振り返りを重ね、自分の考えや魅力を伝える力を磨いていきましょう。',
+      checklistTitle: '選考対策で取り組みたいこと',
+      items: [
+        'ES・Webテスト・GD・面接など、各選考に向けた準備を進める',
+        '選考後にできたこと・できなかったことを振り返り、次に活かす',
+        '他の人からフィードバックをもらいながら改善する',
+      ],
+      benefitTitle: 'TKFで選考対策を進めよう',
+      benefitDescription: 'メンターとの1対1面談で、ES添削や面接練習ができます。GD練習や選考対策イベントを活用して、実践経験を積みましょう。',
+    },
+    perfect: {
+      title: 'あなたの就活準備は「満点」です！',
+      description: '自己分析・企業分析・選考対策をバランスよく進められています。これまでの取り組みを継続しながら、さらに磨きをかけていきましょう。',
+      checklistTitle: 'これからも続けたいこと',
+      items: [
+        '自己分析・企業分析・選考対策をバランスよく継続する',
+        '周囲からのフィードバックを取り入れる',
+        '自分の考えや選考対策をさらにブラッシュアップする',
+      ],
+      benefitTitle: 'TKFで就活をさらに前へ進めよう',
+      benefitDescription: '複数のメンターとの面談で、さまざまな視点やアドバイスを得られます。他の就活生や内定者との交流で、新しい情報や考え方を吸収しましょう。',
+    },
   };
 
   function shuffle(items, random = Math.random) {
@@ -134,7 +136,7 @@
         '<h2 id="' + instance + '-result" class="jhc-result-title" tabindex="-1">診断結果</h2>',
         '<p class="jhc-score"></p><div class="jhc-category-scores"></div>',
         '<div class="jhc-result-advice"></div>',
-        '<a class="jhc-register jhc-primary">TKFに登録する <span aria-hidden="true">↗</span><span class="jhc-sr-only">（新しいタブで開きます）</span></a>',
+        '<a class="jhc-register jhc-primary jhc-guidance-register">TKFに登録する <span aria-hidden="true">→</span><span class="jhc-sr-only">（新しいタブで開きます）</span></a>',
         '<button type="button" class="jhc-retry">もう一度診断する</button>',
       '</section>',
       '<p class="jhc-status jhc-sr-only" role="status" aria-live="polite" aria-atomic="true"></p>',
@@ -234,20 +236,46 @@
         list.append(row);
       });
       const messages = find('.jhc-result-advice');
+      // Keep the existing CTA and its link settings when moving between results.
+      messages.after(register);
       messages.replaceChildren();
       getAdvice(result, resultDate).forEach(text => {
         const section = document.createElement('section');
         section.className = 'jhc-advice-card';
-        // Preserve all Excel wording. Separate the leading result line for hierarchy.
-        const lines = text.split('\n');
+        section.classList.add('jhc-guidance');
         const title = document.createElement('h3');
-        title.textContent = lines.shift();
-        const paragraph = document.createElement('p');
-        paragraph.className = 'jhc-advice';
-        paragraph.textContent = lines.join('\n').trim();
-        section.append(title, paragraph);
+        title.textContent = text.title;
+        const description = document.createElement('p');
+        description.textContent = text.description;
+        const checklistTitle = document.createElement('h4');
+        checklistTitle.textContent = text.checklistTitle;
+        const checklist = document.createElement('ul');
+        checklist.className = 'jhc-guidance-checklist';
+        checklist.setAttribute('role', 'list');
+        text.items.forEach(item => {
+          const entry = document.createElement('li');
+          const check = document.createElement('span');
+          check.className = 'jhc-guidance-check';
+          check.setAttribute('aria-hidden', 'true');
+          check.textContent = '✓';
+          const label = document.createElement('span');
+          label.textContent = item;
+          entry.append(check, label);
+          checklist.append(entry);
+        });
+        const benefit = document.createElement('div');
+        benefit.className = 'jhc-guidance-benefit';
+        const benefitTitle = document.createElement('h4');
+        benefitTitle.textContent = text.benefitTitle;
+        const benefitDescription = document.createElement('p');
+        benefitDescription.textContent = text.benefitDescription;
+        benefit.append(benefitTitle, benefitDescription);
+        section.append(title, description, checklistTitle, checklist, benefit);
         messages.append(section);
       });
+      if (messages.children.length === 1) {
+        messages.firstElementChild.append(register);
+      }
       showScreen('result');
       status.textContent = '診断結果。合計' + result.totalScore + '点。' +
         (result.perfect ? '満点です。' : getRecommendedCategory(result, resultDate) + 'を案内します。');
@@ -274,6 +302,7 @@
       session = null;
       find('.jhc-options').replaceChildren();
       find('.jhc-category-scores').replaceChildren();
+      find('.jhc-result-advice').after(register);
       find('.jhc-result-advice').replaceChildren();
       find('.jhc-score').textContent = '';
       find('.jhc-progress-fill').style.width = '0%';
