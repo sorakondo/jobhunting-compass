@@ -5,7 +5,6 @@
   const advice = {
     自己分析: {
       title: 'まずは「自己分析」から始めよう！',
-      description: '自分の経験を振り返り、やりたいことや強みを明確にすることが、納得のいくキャリア選択への第一歩です。',
       checklistTitle: '自己分析で整理したいこと',
       items: [
         '過去の経験やエピソードを多角的に振り返る',
@@ -17,7 +16,6 @@
     },
     企業分析: {
       title: 'まずは「企業分析」から始めよう！',
-      description: '業界や企業への理解を深め、自分に合う企業と志望理由を明確にすることが、納得のいくキャリア選択につながります。',
       checklistTitle: '企業分析で整理したいこと',
       items: [
         '業界・企業を比較し、それぞれの特徴や違いを整理する',
@@ -29,7 +27,6 @@
     },
     選考対策: {
       title: 'まずは「選考対策」から始めよう！',
-      description: '各選考に向けた準備と振り返りを重ね、自分の考えや魅力を伝える力を磨いていきましょう。',
       checklistTitle: '選考対策で取り組みたいこと',
       items: [
         'ES・Webテスト・GD・面接など、各選考に向けた準備を進める',
@@ -41,7 +38,6 @@
     },
     perfect: {
       title: 'あなたの就活準備は「満点」です！',
-      description: '自己分析・企業分析・選考対策をバランスよく進められています。これまでの取り組みを継続しながら、さらに磨きをかけていきましょう。',
       checklistTitle: 'これからも続けたいこと',
       items: [
         '自己分析・企業分析・選考対策をバランスよく継続する',
@@ -245,8 +241,6 @@
         section.classList.add('jhc-guidance');
         const title = document.createElement('h3');
         title.textContent = text.title;
-        const description = document.createElement('p');
-        description.textContent = text.description;
         const checklistTitle = document.createElement('h4');
         checklistTitle.textContent = text.checklistTitle;
         const checklist = document.createElement('ul');
@@ -270,7 +264,7 @@
         const benefitDescription = document.createElement('p');
         benefitDescription.textContent = text.benefitDescription;
         benefit.append(benefitTitle, benefitDescription);
-        section.append(title, description, checklistTitle, checklist, benefit);
+        section.append(title, checklistTitle, checklist, benefit);
         messages.append(section);
       });
       if (messages.children.length === 1) {
