@@ -18,7 +18,8 @@
   font-size: 16px;
   line-height: 1.8;
   text-align: left;
-  scroll-margin-top: 8px;
+  /* SWELL includes its fixed header and the WordPress admin bar in this offset. */
+  scroll-margin-top: calc(var(--swl-offset_y, 0px) + 8px);
 }
 .jhc-app *, .jhc-app *::before, .jhc-app *::after { box-sizing: border-box; }
 .jhc-app [hidden] { display: none !important; }
